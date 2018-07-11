@@ -32,7 +32,7 @@ the_post();
         	<article>
                 <header style="background-image: url(<?php echo the_post_thumbnail_url();?>);">
                     <h1><?php echo single_post_title();?></h1>
-                    <time><?php echo the_date('d | F');?></time>
+                    <time><?php the_time('d | F'); ?></time>
                 </header>
                 <?php the_content(); ?>
             </article>

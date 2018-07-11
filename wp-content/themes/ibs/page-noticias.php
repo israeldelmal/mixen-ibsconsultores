@@ -52,7 +52,7 @@
 					
 					<article>
 		    			<header style="background-image: url(<?php echo the_post_thumbnail_url();?>);">
-		    				<time><?php the_date('d | F'); ?></time>
+		    				<time><?php the_time('d | F'); ?></time>
 		    			</header>
 		    			<section>
 		    				<h5><?php echo get_the_title();?></h5>

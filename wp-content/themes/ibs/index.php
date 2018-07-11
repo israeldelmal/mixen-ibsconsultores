@@ -3,6 +3,14 @@
 <div class="wrapper index" id="index">
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
+    <!--/* FIXED TAB */-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="fixed-tab" id="fixed-tab">
+        <a class="transition bold" href="http://voysegurousa.com.mx">Compra tu seguro     <img src="<?php echo bloginfo('template_url').'/';?>img/icons/logo-voy.png" alt="" class="img-fluid"></a>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
     <!--/* TOP-INFO */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -13,8 +21,8 @@
                     <p class="hidden-xs">
                         <i class="fa fa-map-marker" aria-hidden="true"></i> GONZÁLEZ COSSIO 3703, COL. LAS GRANJAS, CHIHUAHUA, CHIHUAHUA
                     </p>
-                    <a class="phone" href="tel:016144148936">
-                        <i class="fa fa-mobile" aria-hidden="true"></i> TEL. (614)414.8936
+                    <a class="phone" href="tel:018007770911">
+                        <i class="fa fa-mobile" aria-hidden="true"></i> TEL. 01 800 777 0911
                     </a>
                     <a class="social" target="_blank" href="https://www.facebook.com/ibsconsultores/">
                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -37,14 +45,16 @@
                     <div class="container">
                         <div class="vertical-align">
                             <div class="content">
-                                <!--
-                                <h1>
-                                    <span class="bold">ASEGURE LO QUE <span class="yellow">MÁS QUIERE</span></span>
-                                </h1>
                                 <p>
-                                    <span class="italic">Y GARANTICE SU BIENESTAR CON LAS MEJORES TARIFAS Y PLANES</span>
+                                    CON LAS MEJORES TARIFAS Y PLANES
                                 </p>
-                                -->
+                                <h1>
+                                    <span class="bold">ASEGURA LO QUE <span class="yellow">MÁS QUIERES</span></span>
+                                </h1>
+                                <h1>
+                                    <span class="bold smaller italic">Y GARANTIZA SU BIENESTAR</span>
+                                </h1>
+                                <a target="_blank" class="bold" href="http://ibs_w.segupoliza.com">¡HAZ CLICK Y COMPRA TU SEGURO!</a>
                             </div>
                         </div>
                     </div>
@@ -54,14 +64,16 @@
                     <div class="container">
                         <div class="vertical-align">
                             <div class="content">
-                                <!--
-                                <h1>
-                                    <span class="bold">ASEGURE LO QUE <span class="yellow">MÁS QUIERE</span></span>
-                                </h1>
                                 <p>
-                                    <span class="italic">Y GARANTICE SU BIENESTAR CON LAS MEJORES TARIFAS Y PLANES</span>
+                                    CON LAS MEJORES TARIFAS Y PLANES
                                 </p>
-                                -->
+                                <h1>
+                                    <span class="bold">ASEGURA LO QUE <span class="yellow">MÁS QUIERES</span></span>
+                                </h1>
+                                <h1>
+                                    <span class="bold smaller italic">Y GARANTIZA SU BIENESTAR</span>
+                                </h1>
+                                <a target="_blank" class="bold" href="http://ibs_w.segupoliza.com">¡HAZ CLICK Y COMPRA TU SEGURO!</a>
                             </div>
                         </div>
                     </div>
@@ -71,14 +83,16 @@
                     <div class="container">
                         <div class="vertical-align">
                             <div class="content">
-                                <!--
-                                <h1>
-                                    <span class="bold">ASEGURE LO QUE <span class="yellow">MÁS QUIERE</span></span>
-                                </h1>
                                 <p>
-                                    <span class="italic">Y GARANTICE SU BIENESTAR CON LAS MEJORES TARIFAS Y PLANES</span>
+                                    CON LAS MEJORES TARIFAS Y PLANES
                                 </p>
-                                -->
+                                <h1>
+                                    <span class="bold">ASEGURA LO QUE <span class="yellow">MÁS QUIERES</span></span>
+                                </h1>
+                                <h1>
+                                    <span class="bold smaller italic">Y GARANTIZA SU BIENESTAR</span>
+                                </h1>
+                                <a target="_blank" class="bold" href="http://ibs_w.segupoliza.com">¡HAZ CLICK Y COMPRA TU SEGURO!</a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +110,7 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-banner" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-banner" data-slide-to="1"></li>
+                <li data-target="#carousel-banner" data-slide-to="1" ></li>
                 <li data-target="#carousel-banner" data-slide-to="2"></li>
             </ol>
         </div>
@@ -442,16 +456,19 @@
         </div>
         <div class="container spacing">
             <h1>
-            <span class="left">
-                <span class="comillas">“</span>
-                <span class="italic">TU SEGURIDAD EN</span>
-            </span>
+                <span class="left">
+                    <span class="comillas">“</span>
+                    <span class="italic bold">TU SEGURIDAD EN</span>
+                </span>
                 <br>
                 <span class="right">
-                <span class="bold">NUESTRAS MANOS</span>
-                <span class="comillas">”</span>
-            </span>
+                    <span class="bold">NUESTRAS MANOS</span>
+                    <span class="comillas">”</span>
+                </span>
             </h1>
+            <div class="text-center">
+                <a target="_blank" class="bold" href="http://ibs_w.segupoliza.com">¡HAZ CLICK Y COMPRA TU SEGURO!</a>
+            </div>
         </div>
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -490,7 +507,7 @@
                         
                         <article>
                             <header style="background-image: url(<?php echo the_post_thumbnail_url();?>);">
-                                <time><?php the_date('d | F'); ?></time>
+                                <time><?php the_time('d | F'); ?></time>
                             </header>
                             <section>
                                 <h5><?php echo get_the_title();?></h5>

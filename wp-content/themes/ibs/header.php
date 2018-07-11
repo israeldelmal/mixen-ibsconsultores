@@ -63,6 +63,7 @@
                     </ul>
                 </li>
                 <li class="no-after"><a href="#" class="smoothScroll vertical-align nav-padd">DESCARGABLES</a></li>
+                <li class="no-after"><a href="http://voysegurousa.com.mx" class="smoothScroll vertical-align nav-padd"><img src="<?php echo bloginfo('template_url').'/';?>img/icons/logo-voy.png" alt="" class="img-fluid"></a></li>
             </ul>
         </div>
     </div>

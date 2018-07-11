@@ -18,15 +18,17 @@
 
                 <ul class="nav navbar-nav">
 
-                    <li class="active"><a href="<?php if($page != 'index') { echo 'index.php'; }?>#index" class="smoothScroll">INICIO</a></li>
+                    <li><a href="<?php if (is_front_page()) { echo '#index';} else { echo get_site_url(); }?>">INICIO</a></li>
 
-                    <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#nosotros" class="smoothScroll">NOSOTROS</a></li>
+                    <li><a href="<?php if (is_front_page()) { echo '#nosotros'; } else { echo get_site_url(); } ?>">NOSOTROS</a></li>
 
-                    <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#servicios" class="smoothScroll">SERVICIOS</a></li>
+                    <li><a href="<?php if (is_front_page()) { echo '#servicios'; } else { echo get_site_url(); } ?>">SERVICIOS</a></li>
 
-                    <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#seguros" class="smoothScroll">ASEGURADORAS</a></li>
+                    <li><a href="<?php if (is_front_page()) { echo '#seguros'; } else { echo get_site_url(); } ?>">ASEGURADORAS</a></li>
 
-                    <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#contacto" class="smoothScroll">CONTACTO</a></li>
+                    <li><a href="<?php if (is_front_page()) { echo '#contacto'; } else { echo get_site_url(); } ?>">CONTACTO</a></li>
+
+                    <li><a href="<?php if (is_front_page()) { echo '#noticias'; } else { echo get_site_url(); } ?>">NOTICIAS</a></li>
 
                 </ul>
 
